@@ -1,0 +1,30 @@
+.grid-component {
+  display: grid;
+  border: 2px solid black;
+  grid-template-areas:
+  "heading image image"
+  "title image image"
+  "description image image"
+  "button image image";
+  grid-template-columns: 2fr 1fr;
+}
+
+.img {
+  grid-area: image;
+}
+
+.card-heading {
+  grid-area: heading;
+}
+
+.card-description {
+  grid-area: description
+}
+
+.card-title {
+  grid-area: title;
+}
+
+.card-button {
+  grid-area: button;
+}
