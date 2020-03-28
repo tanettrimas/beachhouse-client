@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <main className='container'>
+        <div className="sidebar grid-component">Some sidecard</div>
+        <div className="headercard grid-component">Some headercard regular</div>
+        <div className="regular-dealcard grid-component">Some regular data</div>
+        <div className="sushi-dealcard grid-component">Some sushi data</div>
+        <div className="thai-dealcard grid-component">Some thai data</div>
+        <div className="sushimenu-card grid-component">Some sushimenu data</div>
+        <div className="thaimenu-card grid-component">Some thaimenu data</div>
+      </main>
   );
 }
 
