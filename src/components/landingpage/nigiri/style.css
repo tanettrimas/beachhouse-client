@@ -5,26 +5,43 @@
   "heading image image"
   "title image image"
   "description image image"
-  "button image image";
-  grid-template-columns: 2fr 1fr;
+  "button image image"
+  ". . .";
+}
+
+.regular-dealcard {
+  color: white;
+  background: black;
 }
 
 .img {
   grid-area: image;
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .card-heading {
+  color: #8E8E8E;
   grid-area: heading;
 }
 
 .card-description {
+  color: #B7B7B7;
   grid-area: description
 }
 
 .card-title {
+  color: #BFBFBF;
   grid-area: title;
 }
 
 .card-button {
   grid-area: button;
+  background: black;
+  color: white;
+  border: 1px solid #FF4500;
+  font-weight: bold;
+  padding: 5px;
 }

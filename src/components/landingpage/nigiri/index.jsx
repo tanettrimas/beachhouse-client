@@ -4,15 +4,13 @@ import { uppercaseString } from '../../../utils/uppercaseString'
 
 const NigiriComponent = ({ title, description, heading, imgSrc } = {}) => {
   return (
-    <div className=''>
       <div className="regular-dealcard grid-component">
-        <img src={imgSrc} alt="Nigiri" width="350px" height="250px" className="img"></img>
+        <img src={imgSrc} alt="Nigiri" className="img"></img>
         <h3 className="card-heading">{uppercaseString(heading)}</h3>
         <h1 className="card-title">{uppercaseString(title)}</h1>
         <p className="card-description">{description}</p>
-        <button className="card-button">View more</button>
+        <button className="card-button">{uppercaseString('View more')}</button>
       </div>
-    </div>
     )
 }
 
