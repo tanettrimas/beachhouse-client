@@ -9,13 +9,7 @@ import Mail from './../../assets/svg/email.svg';
 const HamburgerIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Hamburger}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Hamburger Icon'
-      />
+      <img src={Hamburger} width={width} height={height} alt='Hamburger Icon' />
     </>
   );
 };
@@ -23,13 +17,7 @@ const HamburgerIcon = ({ width, height }) => {
 const HomeIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Home}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Home Icon'
-      />
+      <img src={Home} width={width} height={height} alt='Home Icon' />
     </>
   );
 };
@@ -37,13 +25,7 @@ const HomeIcon = ({ width, height }) => {
 const ThaiIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Thai}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Thai Food Icon'
-      />
+      <img src={Thai} width={width} height={height} alt='Thai Food Icon' />
     </>
   );
 };
@@ -51,13 +33,7 @@ const ThaiIcon = ({ width, height }) => {
 const SushiIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Sushi}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Sushi Icon'
-      />
+      <img src={Sushi} width={width} height={height} alt='Sushi Icon' />
     </>
   );
 };
@@ -65,13 +41,7 @@ const SushiIcon = ({ width, height }) => {
 const PhoneIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Phone}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Phone Icon'
-      />
+      <img src={Phone} width={width} height={height} alt='Phone Icon' />
     </>
   );
 };
@@ -79,13 +49,7 @@ const PhoneIcon = ({ width, height }) => {
 const MailIcon = ({ width, height }) => {
   return (
     <>
-      <img
-        src={Mail}
-        width={width}
-        height={height}
-        style={{ background: '#E5E5E5' }}
-        alt='Mail Icon'
-      />
+      <img src={Mail} width={width} height={height} alt='Mail Icon' />
     </>
   );
 };
