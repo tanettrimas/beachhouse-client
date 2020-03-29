@@ -3,11 +3,17 @@ ul {
   flex-direction: column;
   align-items: flex-start;
 }
+
 li {
   list-style: none;
   padding: 0.5rem 3rem;
 }
 
+img {
+  vertical-align: middle;
+}
+
 p {
   color: #9e3711;
+  padding: 5px;
 }
