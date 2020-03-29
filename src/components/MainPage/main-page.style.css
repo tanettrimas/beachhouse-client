@@ -1,0 +1,27 @@
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: '. .';
+  background: black;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+  color: #8e8e8e;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'roboto';
+  color: #9e3711;
+  margin: 0;
+}
+
+p {
+  font-family: 'Roboto', 'light';
+  color: #bfbfbf;
+  margin: 0;
+}
