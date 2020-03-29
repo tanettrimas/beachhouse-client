@@ -9,19 +9,21 @@
 
 h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 5em;
-  color: #8e8e8e;
+  letter-spacing: 5px;
+  font-size: 7vw;
+  color: #a7a7a7;
   margin: 0;
 }
 
 h2 {
-  font-family: 'roboto';
+  font-family: 'Roboto Condensed', sans-serif;
   color: #9e3711;
   margin: 0;
+  font-size: 3vw;
 }
 
 p {
   font-family: 'Roboto', 'light';
   color: #bfbfbf;
-  margin: 0;
+  font-size: 1.7vw;
 }
