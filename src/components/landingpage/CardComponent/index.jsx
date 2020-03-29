@@ -2,9 +2,9 @@ import React from 'react'
 import '../style.css'
 import PropTypes from 'prop-types';
 
-const CardComponent = ({ title, description, heading, imgSrc, alt, direction, className } = {}) => {
+const CardComponent = ({ title, description, heading, imgSrc, alt, direction, gridArea } = {}) => {
   return (
-    <section className={`${className} landing-page-wrapper-${direction} grid-component`}> 
+    <section className={`${gridArea} landing-page-wrapper-${direction} grid-component`}> 
         <img className={`img grid-column-${direction}`} src={imgSrc} alt={alt}></img>
         <div className={`card-content-${direction}`}>
           <h3 className="card-heading" style={{ alignSelf: 'end'}} >{heading.toUpperCase()}</h3>
@@ -23,7 +23,7 @@ CardComponent.propTypes = {
   imgSrc: PropTypes.string.isRequired, 
   alt: PropTypes.string.isRequired,
   direction: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired
+  gridArea: PropTypes.string.isRequired
 }
 
 export default CardComponent
