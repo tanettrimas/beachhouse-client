@@ -17,6 +17,7 @@ h3 {
 .grid-component {
   height: 100vh;
   background: black;
+  gap: 3rem;
 }
 
 @media (max-width: 700px) {

@@ -3,10 +3,11 @@ import '../style.css'
 import PropTypes from 'prop-types';
 import Button from '../../Button'
 
-const CardComponent = ({ title, description, heading, imgSrc, alt, direction, gridArea } = {}) => {
+const SectionContainer = ({ title, description, heading, imgSrc, alt, direction, gridArea, objectFit = true } = {}) => {
+  const setObjectFitClass = objectFit ? 'object-fit' : ''
   return (
-    <section className={`${gridArea} landing-page-wrapper-${direction} grid-component`}> 
-        <img className={`img grid-column-${direction}`} src={imgSrc} alt={alt}></img>
+    <section className={`${gridArea} landing-page-wrapper-${direction} grid-component`}>
+        <img className={`img grid-column-${direction} ${setObjectFitClass}`} src={imgSrc} alt={alt}></img>
         <div className={`card-content-${direction}`}>
           <h3 className="card-heading" style={{ alignSelf: 'end'}} >{heading.toUpperCase()}</h3>
           <h1 className="card-title">{title.toUpperCase()}</h1>
@@ -17,14 +18,15 @@ const CardComponent = ({ title, description, heading, imgSrc, alt, direction, gr
     )
 }
 
-CardComponent.propTypes = {
+SectionContainer.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   heading: PropTypes.string.isRequired,
   imgSrc: PropTypes.string.isRequired, 
   alt: PropTypes.string.isRequired,
   direction: PropTypes.string.isRequired,
-  gridArea: PropTypes.string.isRequired
+  gridArea: PropTypes.string.isRequired,
+  objectFit: PropTypes.bool
 }
 
-export default CardComponent
+export default SectionContainer

@@ -48,13 +48,12 @@
 
 .regular-dealcard {
   background:black;
-  grid-area: regular-dealcard
+  grid-area: regular-dealcard;
 }
 
 .img {
   grid-area: image;
-  object-fit: cover;
-  max-width: 70%;
+  max-width: 100%;
   max-height: 100%;
   align-self: center;
 }
