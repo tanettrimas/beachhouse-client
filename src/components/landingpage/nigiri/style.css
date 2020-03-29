@@ -23,7 +23,6 @@
 }
 
 .regular-dealcard {
-  color: white;
   background:black;
   grid-area: regular-dealcard
 }
@@ -37,12 +36,14 @@
 }
 
 .card-heading {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   color: #8E8E8E;
   grid-area: heading;
 }
 
 .card-description {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-style: normal;
   color: #B7B7B7;
   grid-area: description
 }
