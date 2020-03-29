@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style.css'
 import PropTypes from 'prop-types';
+import Button from '../../Button'
 
 const CardComponent = ({ title, description, heading, imgSrc, alt, direction, gridArea } = {}) => {
   return (
@@ -10,7 +11,7 @@ const CardComponent = ({ title, description, heading, imgSrc, alt, direction, gr
           <h3 className="card-heading" style={{ alignSelf: 'end'}} >{heading.toUpperCase()}</h3>
           <h1 className="card-title">{title.toUpperCase()}</h1>
           <p className="card-description" style={{ alignSelf: 'start'}}>{description}</p>
-          <button className="card-button">{"View more".toUpperCase()}</button>
+          <Button />
         </div>
     </section>
     )

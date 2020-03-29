@@ -86,17 +86,3 @@
   color: #BFBFBF;
   grid-area: title;
 }
-
-.card-button {
-  grid-area: button;
-  background: black;
-  color: white;
-  border: 1px solid #FF4500;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 25px 10px;
-  justify-self: right;
-  width: 204.7px;
-  height: 83.77px;
-  margin-top: 3.125rem;
-}

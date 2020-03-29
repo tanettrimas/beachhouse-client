@@ -13,8 +13,9 @@ function App() {
       <div className='sidebar grid-component'>
         <SideBar />
       </div>
+      <div className='headercard grid-component'>Some thai data</div>
       <CardComponent
-          gridArea='headercard'
+          gridArea='regular-dealcard'
           description="If your Mac is running painfully slowly or you often get the dreaded error message, it is possible that you have used your Mac's memory to the max. Here are six methods that can help you check and free up your Mac's memory. Go through the following article to find the one that works for you."
           heading='Appetizer'
           imgSrc={springrollImg}
@@ -23,7 +24,7 @@ function App() {
           direction='left'
         />
       <CardComponent
-          gridArea='regular-dealcard'
+          gridArea='sushi-dealcard'
           description="If your Mac is running painfully slowly or you often get the dreaded error message, it is possible that you have used your Mac's memory to the max. Here are six methods that can help you check and free up your Mac's memory. Go through the following article to find the one that works for you."
           heading='Appetizer'
           imgSrc={nigiriImg}
@@ -31,7 +32,6 @@ function App() {
           alt='Nigiri'
           direction='right'
         />
-      <div className='sushi-dealcard grid-component'>Some sushi data</div>
       <div className='thai-dealcard grid-component'>Some thai data</div>
       <div className='sushimenu-card grid-component'>Some sushimenu data</div>
       <div className='thaimenu-card grid-component'>Some thaimenu data</div>
