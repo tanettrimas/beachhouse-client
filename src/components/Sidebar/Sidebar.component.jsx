@@ -11,23 +11,16 @@ const SideBar = () => {
   return (
     <ul style={{ padding: '3rem 0' }}>
       <li>
-        <HamburgerIcon width='35rem' height='50rem' />
+        <HamburgerIcon width='30rem' height='45rem' />
       </li>
       <li className='nav-item'>
-          <HomeIcon width='35rem' height='50rem' />
-          <p>HOME</p>
+        <HomeIcon width='32rem' height='50rem' /> <span>HOME</span>
       </li>
       <li className='nav-item'>
-      <ThaiIcon width='35rem' height='50rem' />
-        <p>
-          THAI
-        </p>
+        <ThaiIcon width='32rem' height='50rem' /> <span> THAI</span>
       </li>
-      <li className='nav-item'>
-      <SushiIcon width='35rem' height='50rem' />
-        <p>
-           SUSHI
-        </p>
+      <li>
+        <SushiIcon width='32rem' height='50rem' /> <span>SUSHI</span>
       </li>
     </ul>
   );

@@ -9,7 +9,13 @@ import Mail from './../../assets/svg/email.svg';
 const HamburgerIcon = ({ width, height }) => {
   return (
     <>
-      <img src={Hamburger} width={width} height={height} alt='Hamburger Icon' />
+      <img
+        src={Hamburger}
+        width={width}
+        height={height}
+        style={{ paddingLeft: '1px' }}
+        alt='Hamburger Icon'
+      />
     </>
   );
 };
