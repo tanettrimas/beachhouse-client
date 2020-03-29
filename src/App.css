@@ -10,28 +10,85 @@
 @media (max-width: 700px) {
   .container {
     display: grid;
-    grid-template-areas: 
-    "sidebar "
-    "headercard"
-    "regular-dealcard"
-    "sushi-dealcard"
-    "thai-dealcard"
-    "sushimenu-card"
-    "thaimenu-card";
+    grid-template-areas:
+      'sidebar '
+      'headercard'
+      'regular-dealcard'
+      'sushi-dealcard'
+      'thai-dealcard'
+      'sushimenu-card'
+      'thaimenu-card';
     width: 100vw;
     height: 100vh;
     grid-template-rows: 1fr repeat(6, 2fr);
   }
 
-  
   .sidebar {
     background-color: black;
     text-align: center;
     color: white;
     grid-area: sidebar;
-    height: 0.5fr
+    height: 0.5fr;
   }
-  
+
+  .headercard {
+    background-color: blue;
+    text-align: center;
+    grid-area: headercard;
+  }
+
+  .regular-dealcard {
+    background-color: palegoldenrod;
+    text-align: center;
+    grid-area: regular-dealcard;
+  }
+
+  .sushi-dealcard {
+    background-color: red;
+    text-align: center;
+    grid-area: sushi-dealcard;
+  }
+
+  .thai-dealcard {
+    background-color: green;
+    text-align: center;
+    grid-area: thai-dealcard;
+  }
+
+  .sushimenu-card {
+    background-color: pink;
+    text-align: center;
+    grid-area: sushimenu-card;
+  }
+
+  .thaimenu-card {
+    background-color: teal¢;
+    text-align: center;
+    grid-area: thaimenu-card;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+      'sidebar headercard headercard'
+      'sidebar regular-dealcard regular-dealcard'
+      'sidebar sushi-dealcard sushi-dealcard'
+      'sidebar thai-dealcard thai-dealcard'
+      'sidebar sushimenu-card sushimenu-card'
+      'sidebar thaimenu-card thaimenu-card';
+    grid-template-columns: 250px auto;
+  }
+
+  .sidebar {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    grid-area: sidebar;
+  }
+
   .headercard {
     background-color: blue;
     text-align: center;
@@ -49,71 +106,19 @@
     text-align: center;
     grid-area: sushi-dealcard;
   }
-  
-  .thai-dealcard {
-    background-color: green;
-    text-align: center;
-    grid-area: thai-dealcard;
-  }
-  
-  .sushimenu-card {
-    background-color: pink;
-    text-align: center;
-    grid-area: sushimenu-card;
-  }
-  
-  .thaimenu-card {
-    background-color: teal¢;
-    text-align: center;
-    grid-area: thaimenu-card;
-  }
-}
 
-@media (min-width: 700px) {
-  .container {
-    display: grid;
-    grid-template-areas: 
-    "sidebar headercard headercard"
-    "sidebar regular-dealcard regular-dealcard"
-    "sidebar sushi-dealcard sushi-dealcard"
-    "sidebar thai-dealcard thai-dealcard"
-    "sidebar sushimenu-card sushimenu-card"
-    "sidebar thaimenu-card thaimenu-card";
-    grid-template-columns: 150px auto;
-  }
-  
-  .sidebar {
-    background-color: black;
-    text-align: center;
-    color: white;
-    height: 100vh;
-    grid-area: sidebar;
-  }
-  
-  .headercard {
-    background-color: blue;
-    text-align: center;
-    grid-area: headercard;
-  }
-  
-  .sushi-dealcard {
-    background-color: red;
-    text-align: center;
-    grid-area: sushi-dealcard;
-  }
-  
   .thai-dealcard {
     background-color: green;
     text-align: center;
     grid-area: thai-dealcard;
   }
-  
+
   .sushimenu-card {
     background-color: pink;
     text-align: center;
     grid-area: sushimenu-card;
   }
-  
+
   .thaimenu-card {
     background-color: teal¢;
     text-align: center;
