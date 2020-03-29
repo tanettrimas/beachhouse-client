@@ -15,7 +15,8 @@ const SideBar = () => {
       </li>
       <li>
         <p>
-          <HomeIcon width='35rem' height='50rem' /> HOME
+          <HomeIcon width='35rem' height='50rem' />
+          HOME
         </p>
       </li>
       <li>
