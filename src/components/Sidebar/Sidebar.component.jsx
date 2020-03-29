@@ -17,7 +17,7 @@ const SideBar = () => {
         <HomeIcon width='32rem' height='50rem' /> <span>HOME</span>
       </li>
       <li className='nav-item'>
-        <ThaiIcon width='32rem' height='50rem' /> <span> THAI</span>
+        <ThaiIcon width='32rem' height='50rem' /> <span>THAI</span>
       </li>
       <li className='nav-item'>
         <SushiIcon width='32rem' height='50rem' /> <span>SUSHI</span>

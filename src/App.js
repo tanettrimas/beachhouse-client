@@ -4,6 +4,9 @@ import './App.css';
 import { SideBar } from './components/Sidebar/Sidebar.component';
 import nigiriImg from './assets/img/nigiri.png';
 import NigiriComponent from './components/landingpage/nigiri';
+import SpringrollComponent from './components/landingpage/springroll';
+import springrollImg from './assets/img/springroll.png'
+
 
 function App() {
   return (
@@ -11,9 +14,12 @@ function App() {
       <div className='sidebar grid-component'>
         <SideBar />
       </div>
-      <div className='headercard grid-component'>
-        Some headercard regular
-      </div>
+      <SpringrollComponent
+          description="If your Mac is running painfully slowly or you often get the dreaded error message, it is possible that you have used your Mac's memory to the max. Here are six methods that can help you check and free up your Mac's memory. Go through the following article to find the one that works for you."
+          heading='Appetizer'
+          imgSrc={springrollImg}
+          title='Complement your meal'
+        />
       <NigiriComponent
           description="If your Mac is running painfully slowly or you often get the dreaded error message, it is possible that you have used your Mac's memory to the max. Here are six methods that can help you check and free up your Mac's memory. Go through the following article to find the one that works for you."
           heading='Appetizer'
