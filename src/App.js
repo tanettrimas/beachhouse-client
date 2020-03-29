@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import { SideBar } from './components/Sidebar/Sidebar.component';
-import nigiriImg from './assets/img/nigiri.jpg';
+import nigiriImg from './assets/img/nigiri.png';
 import NigiriComponent from './components/landingpage/nigiri';
 
 function App() {
