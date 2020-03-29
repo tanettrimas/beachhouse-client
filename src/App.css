@@ -96,12 +96,6 @@
     grid-area: headercard;
   }
   
-  .regular-dealcard {
-    background-color: palegoldenrod;
-    text-align: center;
-    grid-area: regular-dealcard;
-  }
-  
   .sushi-dealcard {
     background-color: red;
     text-align: center;

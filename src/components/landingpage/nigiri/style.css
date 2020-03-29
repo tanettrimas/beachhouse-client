@@ -1,30 +1,64 @@
 .grid-component {
   display: grid;
   border: 2px solid black;
-  grid-template-areas:
-  "heading image image"
-  "title image image"
-  "description image image"
-  "button image image";
-  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  ". image image" 
+  "content image image" 
+  "content image image" 
+  ". image image" ;
+  grid-template-columns: 2fr  1fr 1fr;
+}
+
+.card-content {
+  display: grid;
+  grid-area: content;
+  grid-template-areas: 
+  ". heading heading heading"
+  ". title title title "
+  ". description description description  "
+  ".  . . button";
+  grid-template-columns: 0.5fr repeat(3, 1fr);
+  text-align: right;
+  padding-right: 10px;;
+  justify-content: center;
+}
+
+.regular-dealcard {
+  color: white;
+  background:black;
+  grid-area: regular-dealcard
 }
 
 .img {
   grid-area: image;
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
 }
 
 .card-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8E8E8E;
   grid-area: heading;
 }
 
 .card-description {
+  color: #B7B7B7;
   grid-area: description
 }
 
 .card-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #BFBFBF;
   grid-area: title;
 }
 
 .card-button {
   grid-area: button;
+  background: black;
+  color: white;
+  border: 1px solid #FF4500;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 25px 10px;
 }
